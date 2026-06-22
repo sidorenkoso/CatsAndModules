@@ -20,12 +20,12 @@ workflows:
         #   FIREBASE_TOKEN  (from `firebase login:ci`)  -> mark as Secure
         - firebase
       ios_signing:
-        # Names of the signing files you upload to Codemagic
-        # (Teams -> Code signing identities). Adjust if different.
+        # Reference names of the signing files uploaded to Codemagic
+        # (Code signing identities). Must match exactly.
         provisioning_profiles:
-          - Apple-ENV Sydorenko
+          - Apple_ENV_Sydorenko
         certificates:
-          - iOS Development
+          - ios_development
 
     scripts:
       - name: Install dependencies (fastlane + plugins)
