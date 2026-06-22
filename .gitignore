@@ -1,0 +1,18 @@
+# Xcode / build
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+
+# fastlane / CI output
+output/
+screenshots/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/test_output/
+*.ipa
+*.dSYM.zip
+
+# macOS
+.DS_Store

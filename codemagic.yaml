@@ -1,0 +1,45 @@
+workflows:
+  release_firebase:
+    name: Release to Firebase (release_Sofiia)
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+
+    # Build ONLY on push to the branch release_Sofiia
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: "release_Sofiia"
+          include: true
+          source: true
+
+    environment:
+      ruby: default
+      groups:
+        # Create this variable group in Codemagic UI with:
+        #   FIREBASE_TOKEN  (from `firebase login:ci`)  -> mark as Secure
+        - firebase
+      ios_signing:
+        # Names of the signing files you upload to Codemagic
+        # (Teams -> Code signing identities). Adjust if different.
+        provisioning_profiles:
+          - Apple-ENV Sydorenko
+        certificates:
+          - iOS Development
+
+    scripts:
+      - name: Install dependencies (fastlane + plugins)
+        script: |
+          bundle install
+
+      - name: Apply provisioning profiles
+        script: |
+          xcode-project use-profiles
+
+      - name: Build & distribute to Firebase App Distribution
+        script: |
+          bundle exec fastlane ci_release
+
+    artifacts:
+      - output/*.ipa
+      - output/*.dSYM.zip

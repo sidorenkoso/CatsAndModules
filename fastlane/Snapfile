@@ -1,0 +1,17 @@
+devices([
+  "iPhone SE (3rd generation)",
+  "iPhone 13"
+])
+
+languages([
+  "en-US",
+  "de-DE"
+])
+
+scheme("CatsAndModules_SofiiaSydorenko")
+
+output_directory("./screenshots")
+
+clear_previous_screenshots(true)
+
+concurrent_simulators(false)

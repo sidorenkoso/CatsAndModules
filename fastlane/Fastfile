@@ -1,0 +1,79 @@
+default_platform(:ios)
+
+# --- Project constants ---------------------------------------------------
+WORKSPACE       = "CatsAndModules_SofiiaSydorenko.xcodeproj/project.xcworkspace"
+PROJECT         = "CatsAndModules_SofiiaSydorenko.xcodeproj"
+SCHEME          = "CatsAndModules_SofiiaSydorenko"
+FIREBASE_APP_ID = "1:771333551761:ios:6c39db1434a612ac46f130"
+BUNDLE_ID       = "ua.edu.ukma.apple-env.sydorenko."
+TEAM_ID         = "D85QWSUNYA"
+PROFILE_NAME    = "Apple-ENV Sydorenko"
+
+platform :ios do
+
+  lane :build_and_export do
+    increment_version_number(
+      version_number: "1.1",
+      xcodeproj: PROJECT
+    )
+
+    gym(
+      workspace: WORKSPACE,
+      scheme: SCHEME,
+      destination: "generic/platform=iOS",
+      export_method: "development",
+      output_name: "CatsAndModules_SofiiaSydorenko",
+      export_options: {
+        signingStyle: "manual",
+        teamID: TEAM_ID,
+        signingCertificate: "iOS Developer",
+        provisioningProfiles: {
+          BUNDLE_ID => PROFILE_NAME
+        }
+      }
+    )
+
+    firebase_app_distribution(
+      app: FIREBASE_APP_ID,
+      ipa_path: "./output/CatsAndModules_SofiiaSydorenko.ipa",
+      testers: "o.frankiv@ukma.edu.ua",
+      release_notes: "fastlane build_and_export — version 1.1 (Cats & Dogs app)"
+    )
+  end
+
+  lane :take_screenshots do
+    snapshot
+  end
+
+  # ----------------------------------------------------------------------
+  # CI — build & distribute the committed version to Firebase
+  # (used by Codemagic on push to branch release_Sofiia).
+  # No version bump here: the version committed in Xcode is what ships.
+  # ----------------------------------------------------------------------
+  desc "CI: build and upload the current version to Firebase App Distribution"
+  lane :ci_release do
+    gym(
+      workspace: WORKSPACE,
+      scheme: SCHEME,
+      destination: "generic/platform=iOS",
+      export_method: "development",
+      output_name: "CatsAndModules_SofiiaSydorenko",
+      export_options: {
+        signingStyle: "manual",
+        teamID: TEAM_ID,
+        signingCertificate: "iOS Developer",
+        provisioningProfiles: {
+          BUNDLE_ID => PROFILE_NAME
+        }
+      }
+    )
+
+    firebase_app_distribution(
+      app: FIREBASE_APP_ID,
+      ipa_path: "./output/CatsAndModules_SofiiaSydorenko.ipa",
+      testers: "o.frankiv@ukma.edu.ua",
+      release_notes: "Automated CI build via Codemagic (push to release_Sofiia)"
+    )
+  end
+
+end

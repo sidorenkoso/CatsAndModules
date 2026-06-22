@@ -1,0 +1,490 @@
+2026-06-18 17:47:32 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x14e8a3cf0; archive(resolved)="<IDEArchive: 0x6000028ebe20>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team(resolved)="<IDEProvisioningBasicTeam: 0x600000210f80; teamID='D85QWSUNYA', teamName='(null)'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x14e8a3cf0; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="<IDEProvisioningBasicTeam: 0x600000210f80; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x14e8854e0; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="<IDEProvisioningBasicTeam: 0x600000210f80; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x14e8a33c0; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="<IDEProvisioningBasicTeam: 0x600000210f80; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x14e8749a0; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="<IDEProvisioningBasicTeam: 0x600000210f80; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x14e874790; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="<IDEProvisioningBasicTeam: 0x600000210f80; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x14e874580; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="<IDEProvisioningBasicTeam: 0x600000210f80; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x14e869ee0; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="<IDEProvisioningBasicTeam: 0x600000210f80; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x14e883460; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="<IDEProvisioningBasicTeam: 0x600000210f80; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x14e874370; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="<IDEProvisioningBasicTeam: 0x600000210f80; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x14e874160; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="(null)">
+	<IDEDistributionContext: 0x14e873680; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="(null)">
+	<IDEDistributionContext: 0x14e873470; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="(null)">
+	<IDEDistributionContext: 0x12de0e140; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000011d600>", team="(null)">
+	<IDEDistributionContext: 0x14e863740; archive = "<IDEArchive: 0x6000028ebe20>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x14e8a3cf0>
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2026-06-18 17:47:32 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app' '/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app'
+2026-06-18 17:47:32 +0000  >>> Copying /Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app 
+2026-06-18 17:47:32 +0000  copying file ./_CodeSignature/CodeResources ... 
+2026-06-18 17:47:32 +0000  17819 bytes for ./_CodeSignature/CodeResources
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  855 bytes for ./Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseCore.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  694 bytes for ./Firebase_FirebaseCore.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  1383 bytes for ./Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseCrashlytics.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  708 bytes for ./Firebase_FirebaseCrashlytics.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./nanopb_nanopb.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  374 bytes for ./nanopb_nanopb.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./nanopb_nanopb.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  668 bytes for ./nanopb_nanopb.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  746 bytes for ./GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  720 bytes for ./GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  1105 bytes for ./Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseInstallations.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  712 bytes for ./Firebase_FirebaseInstallations.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  855 bytes for ./Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseCoreInternal.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  710 bytes for ./Firebase_FirebaseCoreInternal.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  720 bytes for ./GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-Reachability.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-Reachability.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  732 bytes for ./GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./GoogleService-Info.plist ... 
+2026-06-18 17:47:32 +0000  512 bytes for ./GoogleService-Info.plist
+2026-06-18 17:47:32 +0000  copying file ./CatsAndModules_SofiiaSydorenko ... 
+2026-06-18 17:47:32 +0000  3886208 bytes for ./CatsAndModules_SofiiaSydorenko
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy ... 
+478 bytes for ./Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy
+copying file ./Firebase_FirebaseABTesting.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  704 bytes for ./Firebase_FirebaseABTesting.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  1105 bytes for ./GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./GoogleDataTransport_GoogleDataTransport.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  722 bytes for ./GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  373 bytes for ./Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./Promises_FBLPromises.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  684 bytes for ./Promises_FBLPromises.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-Network.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  856 bytes for ./GoogleUtilities_GoogleUtilities-Network.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  722 bytes for ./GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  478 bytes for ./Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./Firebase_FirebaseCoreExtension.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  712 bytes for ./Firebase_FirebaseCoreExtension.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  911 bytes for ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  732 bytes for ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Promises_Promises.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  373 bytes for ./Promises_Promises.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./Promises_Promises.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  678 bytes for ./Promises_Promises.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  855 bytes for ./GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  730 bytes for ./GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/Networking.framework/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:32 +0000  1798 bytes for ./Frameworks/Networking.framework/_CodeSignature/CodeResources
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/Networking.framework/Networking ... 
+2026-06-18 17:47:32 +0000  95856 bytes for ./Frameworks/Networking.framework/Networking
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/Networking.framework/Info.plist ... 
+2026-06-18 17:47:32 +0000  774 bytes for ./Frameworks/Networking.framework/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:32 +0000  1798 bytes for ./Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement ... 
+2026-06-18 17:47:32 +0000  51488 bytes for ./Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/Info.plist ... 
+2026-06-18 17:47:32 +0000  1550 bytes for ./Frameworks/GoogleAppMeasurement.framework/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:32 +0000  1798 bytes for ./Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics ... 
+2026-06-18 17:47:32 +0000  51488 bytes for ./Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/Info.plist ... 
+2026-06-18 17:47:32 +0000  1541 bytes for ./Frameworks/FirebaseAnalytics.framework/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:32 +0000  1798 bytes for ./Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion ... 
+2026-06-18 17:47:32 +0000  51504 bytes for ./Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist ... 
+2026-06-18 17:47:32 +0000  1524 bytes for ./Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:32 +0000  1798 bytes for ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport ... 
+2026-06-18 17:47:32 +0000  51520 bytes for ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+2026-06-18 17:47:32 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist ... 
+2026-06-18 17:47:32 +0000  1595 bytes for ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:32 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:32 +0000  copying file ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist ... 
+2026-06-18 17:47:32 +0000  736 bytes for ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+2026-06-18 17:47:32 +0000  copying file ./embedded.mobileprovision ... 
+2026-06-18 17:47:32 +0000  12623 bytes for ./embedded.mobileprovision
+2026-06-18 17:47:32 +0000  copying file ./Info.plist ... 
+2026-06-18 17:47:32 +0000  1307 bytes for ./Info.plist
+2026-06-18 17:47:32 +0000  copying file ./PkgInfo ... 
+2026-06-18 17:47:32 +0000  8 bytes for ./PkgInfo
+2026-06-18 17:47:32 +0000 [MT] /usr/bin/ditto exited with 0
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2026-06-18 17:47:32 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000027f1f80; bundleID='org.cocoapods.FirebaseAnalytics', path='<DVTFilePath:0x600002879260:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1f20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365e700; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.FirebaseAnalytics', executablePath='<DVTFilePath:0x6000028796c0:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'>
+2026-06-18 17:47:32 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000027f2220; bundleID='com.google.ads.GoogleAdsOnDeviceConversion', path='<DVTFilePath:0x600002c70c00:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f21c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365e700; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='com.google.ads.GoogleAdsOnDeviceConversion', executablePath='<DVTFilePath:0x6000028e0150:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion'>', hardenedRuntime='0'>'>
+2026-06-18 17:47:32 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000027fad00; bundleID='org.cocoapods.GoogleAppMeasurement', path='<DVTFilePath:0x6000028ec230:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027faca0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365e700; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurement', executablePath='<DVTFilePath:0x600002878bd0:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'>
+2026-06-18 17:47:32 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000027f1c20; bundleID='org.cocoapods.GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x600002c70380:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1bc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365e700; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x600002c70800:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'>
+2026-06-18 17:47:32 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000027fac40; bundleID='ua.edu.ukma.apple-env.sydorenko.Networking', path='<DVTFilePath:0x6000028ec150:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365e700; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.sydorenko.Networking', executablePath='<DVTFilePath:0x600002704d20:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'>
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2026-06-18 17:47:32 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-06-18 17:47:32 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-06-18 17:47:32 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-06-18 17:47:32 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-06-18 17:47:32 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-06-18 17:47:32 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2026-06-18 17:47:32 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2026-06-18 17:47:32 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2026-06-18 17:47:32 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2026-06-18 17:47:32 +0000 [MT] Archs to thin for item /Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework are []
+2026-06-18 17:47:32 +0000 [MT] Archs to thin for item /Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework are []
+2026-06-18 17:47:32 +0000 [MT] Archs to thin for item /Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework are []
+2026-06-18 17:47:32 +0000 [MT] Archs to thin for item /Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework are []
+2026-06-18 17:47:32 +0000 [MT] Archs to thin for item /Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework are []
+2026-06-18 17:47:32 +0000 [MT] Archs to thin for item /Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app are []
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionODRStep
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2026-06-18 17:47:32 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-06-18 17:47:32 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-06-18 17:47:32 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-06-18 17:47:32 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-06-18 17:47:32 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-06-18 17:47:32 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-06-18 17:47:32 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2026-06-18 17:47:32 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000027f1f80; bundleID='org.cocoapods.FirebaseAnalytics', path='<DVTFilePath:0x600002879260:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1f20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003639a40; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.FirebaseAnalytics', executablePath='<DVTFilePath:0x6000028796c0:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'>: {
+}
+2026-06-18 17:47:32 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-06-18 17:47:32 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000027f1f80; bundleID='org.cocoapods.FirebaseAnalytics', path='<DVTFilePath:0x600002879260:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1f20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003639b00; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.FirebaseAnalytics', executablePath='<DVTFilePath:0x6000028796c0:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'> are: {
+}
+2026-06-18 17:47:32 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000027f1f80; bundleID='org.cocoapods.FirebaseAnalytics', path='<DVTFilePath:0x600002879260:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1f20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003639b00; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.FirebaseAnalytics', executablePath='<DVTFilePath:0x6000028796c0:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'> to: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~oVy6dH
+2026-06-18 17:47:32 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000023e2490; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    EC42EF70C1826C7DAFFC5913F485245855B3BDA0,
+    "--entitlements",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~oVy6dH",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework"
+)'>
+2026-06-18 17:47:32 +0000 [MT] codesign output: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework: replacing existing signature
+/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.FirebaseAnalytics]
+2026-06-18 17:47:32 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000027f2220; bundleID='com.google.ads.GoogleAdsOnDeviceConversion', path='<DVTFilePath:0x600002c70c00:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f21c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365ee80; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='com.google.ads.GoogleAdsOnDeviceConversion', executablePath='<DVTFilePath:0x6000028e0150:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion'>', hardenedRuntime='0'>'>: {
+}
+2026-06-18 17:47:32 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-06-18 17:47:32 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000027f2220; bundleID='com.google.ads.GoogleAdsOnDeviceConversion', path='<DVTFilePath:0x600002c70c00:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f21c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365e400; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='com.google.ads.GoogleAdsOnDeviceConversion', executablePath='<DVTFilePath:0x6000028e0150:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion'>', hardenedRuntime='0'>'> are: {
+}
+2026-06-18 17:47:32 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000027f2220; bundleID='com.google.ads.GoogleAdsOnDeviceConversion', path='<DVTFilePath:0x600002c70c00:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f21c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003639a40; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='com.google.ads.GoogleAdsOnDeviceConversion', executablePath='<DVTFilePath:0x6000028e0150:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion'>', hardenedRuntime='0'>'> to: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~gxNYyT
+2026-06-18 17:47:32 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000023e18b0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    EC42EF70C1826C7DAFFC5913F485245855B3BDA0,
+    "--entitlements",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~gxNYyT",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework"
+)'>
+2026-06-18 17:47:33 +0000 [MT] codesign output: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework: replacing existing signature
+/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework: signed bundle with Mach-O universal (arm64) [com.google.ads.GoogleAdsOnDeviceConversion]
+2026-06-18 17:47:33 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000027fad00; bundleID='org.cocoapods.GoogleAppMeasurement', path='<DVTFilePath:0x6000028ec230:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027faca0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365ee80; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurement', executablePath='<DVTFilePath:0x600002878bd0:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'>: {
+}
+2026-06-18 17:47:33 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-06-18 17:47:33 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000027fad00; bundleID='org.cocoapods.GoogleAppMeasurement', path='<DVTFilePath:0x6000028ec230:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027faca0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003639a40; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurement', executablePath='<DVTFilePath:0x600002878bd0:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'> are: {
+}
+2026-06-18 17:47:33 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000027fad00; bundleID='org.cocoapods.GoogleAppMeasurement', path='<DVTFilePath:0x6000028ec230:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027faca0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003639a40; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurement', executablePath='<DVTFilePath:0x600002878bd0:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'> to: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~Q8MRjQ
+2026-06-18 17:47:33 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000023e1270; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    EC42EF70C1826C7DAFFC5913F485245855B3BDA0,
+    "--entitlements",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~Q8MRjQ",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework"
+)'>
+2026-06-18 17:47:33 +0000 [MT] codesign output: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework: replacing existing signature
+/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GoogleAppMeasurement]
+2026-06-18 17:47:33 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000027f1c20; bundleID='org.cocoapods.GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x600002c70380:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1bc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365ee80; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x600002c70800:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'>: {
+}
+2026-06-18 17:47:33 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-06-18 17:47:33 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000027f1c20; bundleID='org.cocoapods.GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x600002c70380:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1bc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000036392c0; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x600002c70800:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'> are: {
+}
+2026-06-18 17:47:33 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000027f1c20; bundleID='org.cocoapods.GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x600002c70380:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1bc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000036392c0; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x600002c70800:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'> to: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~cqRXAt
+2026-06-18 17:47:33 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000023e2490; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    EC42EF70C1826C7DAFFC5913F485245855B3BDA0,
+    "--entitlements",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~cqRXAt",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework"
+)'>
+2026-06-18 17:47:33 +0000 [MT] codesign output: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework: replacing existing signature
+/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GoogleAppMeasurementIdentitySupport]
+2026-06-18 17:47:33 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000027fac40; bundleID='ua.edu.ukma.apple-env.sydorenko.Networking', path='<DVTFilePath:0x6000028ec150:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365ee80; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.sydorenko.Networking', executablePath='<DVTFilePath:0x600002704d20:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'>: {
+}
+2026-06-18 17:47:33 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-06-18 17:47:33 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000027fac40; bundleID='ua.edu.ukma.apple-env.sydorenko.Networking', path='<DVTFilePath:0x6000028ec150:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365e400; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.sydorenko.Networking', executablePath='<DVTFilePath:0x600002704d20:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'> are: {
+}
+2026-06-18 17:47:33 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000027fac40; bundleID='ua.edu.ukma.apple-env.sydorenko.Networking', path='<DVTFilePath:0x6000028ec150:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f1980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365e400; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.sydorenko.Networking', executablePath='<DVTFilePath:0x600002704d20:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'> to: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~Q472hV
+2026-06-18 17:47:33 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000023e1130; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    EC42EF70C1826C7DAFFC5913F485245855B3BDA0,
+    "--entitlements",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~Q472hV",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework"
+)'>
+2026-06-18 17:47:33 +0000 [MT] codesign output: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework: replacing existing signature
+/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework: signed bundle with Mach-O thin (arm64) [ua.edu.ukma.apple-env.sydorenko.Networking]
+2026-06-18 17:47:33 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600002702c40; bundleID='ua.edu.ukma.apple-env.sydorenko.', path='<DVTFilePath:0x600002d86100:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f2460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365ee80; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.sydorenko.";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.sydorenko.', executablePath='<DVTFilePath:0x6000028f7c60:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/CatsAndModules_SofiiaSydorenko'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.sydorenko.";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}
+2026-06-18 17:47:33 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-06-18 17:47:33 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600002702c40; bundleID='ua.edu.ukma.apple-env.sydorenko.', path='<DVTFilePath:0x600002d86100:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f2460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000365e400; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.sydorenko.";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.sydorenko.', executablePath='<DVTFilePath:0x6000028f7c60:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/CatsAndModules_SofiiaSydorenko'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.sydorenko.";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}
+2026-06-18 17:47:33 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600002702c40; bundleID='ua.edu.ukma.apple-env.sydorenko.', path='<DVTFilePath:0x600002d86100:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000027f2460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600003639a40; name='iPhone Developer: Sofiia Sydorenko (7X6D5KB5DT)', hash='EC42EF70C1826C7DAFFC5913F485245855B3BDA0', serialNumber='492FEAEFC60A7C0C66BDE5A4FC4681F0', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-06-15 16:08:42 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.sydorenko.";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.sydorenko.', executablePath='<DVTFilePath:0x6000028f7c60:'/Users/sofiasidorenko/Claude/Projects/apple/CatsAndModules_Sydorenko01/build/CatsAndModules_SofiiaSydorenko.xcarchive/Products/Applications/CatsAndModules_SofiiaSydorenko.app/CatsAndModules_SofiiaSydorenko'>', hardenedRuntime='0'>'> to: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~JqkxzN
+2026-06-18 17:47:33 +0000 [MT] invoking codesign: <NSConcreteTask: 0x6000023e1f90; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    EC42EF70C1826C7DAFFC5913F485245855B3BDA0,
+    "--entitlements",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/entitlements~~~JqkxzN",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app"
+)'>
+2026-06-18 17:47:33 +0000 [MT] codesign output: /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app: replacing existing signature
+/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app: signed app bundle with Mach-O thin (arm64) [ua.edu.ukma.apple-env.sydorenko.]
+2026-06-18 17:47:33 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2026-06-18 17:47:33 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-06-18 17:47:33 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-06-18 17:47:33 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-06-18 17:47:33 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-06-18 17:47:33 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-06-18 17:47:33 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-06-18 17:47:33 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2026-06-18 17:47:33 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root' '/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Packages/CatsAndModules_SofiiaSydorenko.ipa'
+2026-06-18 17:47:33 +0000  >>> Copying /var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root 
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:33 +0000  17819 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/_CodeSignature/CodeResources
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  855 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCore.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  694 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCore.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  1383 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCrashlytics.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  708 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCrashlytics.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/nanopb_nanopb.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  374 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/nanopb_nanopb.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/nanopb_nanopb.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  668 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/nanopb_nanopb.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  478 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  746 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  478 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  720 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  1105 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseInstallations.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  712 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseInstallations.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  855 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCoreInternal.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  710 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCoreInternal.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  478 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  720 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  478 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  732 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleService-Info.plist ... 
+2026-06-18 17:47:33 +0000  512 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleService-Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/CatsAndModules_SofiiaSydorenko ... 
+2026-06-18 17:47:33 +0000  3886208 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/CatsAndModules_SofiiaSydorenko
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy ... 
+478 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseABTesting.bundle/Info.plist ... 
+704 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseABTesting.bundle/Info.plist
+copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy ... 
+1105 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist ... 
+722 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  373 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Promises_FBLPromises.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  684 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Promises_FBLPromises.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Network.bundle/PrivacyInfo.xcprivacy ... 
+856 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Network.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist ... 
+722 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  478 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCoreExtension.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  712 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Firebase_FirebaseCoreExtension.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  911 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  732 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Promises_Promises.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  373 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Promises_Promises.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Promises_Promises.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  678 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Promises_Promises.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  855 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  730 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:33 +0000  1798 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework/_CodeSignature/CodeResources
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework/Networking ... 
+2026-06-18 17:47:33 +0000  95856 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework/Networking
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework/Info.plist ... 
+2026-06-18 17:47:33 +0000  774 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:33 +0000  1798 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement ... 
+2026-06-18 17:47:33 +0000  51488 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework/Info.plist ... 
+2026-06-18 17:47:33 +0000  1550 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:33 +0000  1798 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics ... 
+2026-06-18 17:47:33 +0000  51488 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework/Info.plist ... 
+2026-06-18 17:47:33 +0000  1541 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:33 +0000  1798 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion ... 
+2026-06-18 17:47:33 +0000  51504 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist ... 
+2026-06-18 17:47:33 +0000  1524 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources ... 
+2026-06-18 17:47:33 +0000  1798 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport ... 
+2026-06-18 17:47:33 +0000  51520 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist ... 
+2026-06-18 17:47:33 +0000  1595 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy ... 
+2026-06-18 17:47:33 +0000  478 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist ... 
+2026-06-18 17:47:33 +0000  736 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/embedded.mobileprovision ... 
+2026-06-18 17:47:33 +0000  12623 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/embedded.mobileprovision
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/Info.plist ... 
+2026-06-18 17:47:33 +0000  1307 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/Info.plist
+2026-06-18 17:47:33 +0000  copying file ./Payload/CatsAndModules_SofiiaSydorenko.app/PkgInfo ... 
+2026-06-18 17:47:33 +0000  8 bytes for ./Payload/CatsAndModules_SofiiaSydorenko.app/PkgInfo
+2026-06-18 17:47:33 +0000 [MT] /usr/bin/ditto exited with 0
+2026-06-18 17:47:33 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2026-06-18 17:47:33 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-06-18 17:47:33 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-06-18 17:47:33 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600002c4cf00:'/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>
+2026-06-18 17:47:33 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600002c4c500:'/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework'>
+2026-06-18 17:47:33 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600002b599d0:'/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/Networking.framework'>
+2026-06-18 17:47:33 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600002b59880:'/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/GoogleAppMeasurement.framework'>
+2026-06-18 17:47:33 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x6000028b1650:'/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app/Frameworks/FirebaseAnalytics.framework'>
+2026-06-18 17:47:33 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600002c44080:'/var/folders/rs/b5nyzs293wnbxgq4nw3wckt00000gn/T/XcodeDistPipeline.~~~uVKYAc/Root/Payload/CatsAndModules_SofiiaSydorenko.app'>
+2026-06-18 17:47:33 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
